@@ -5,7 +5,7 @@ You will also likely need to solve a CAPTCHA
 ====================================================================
 
 
-let firstNames = ["Samantha", "Chad", "Timothy", "Gustavo", "Chadwick", "Penisfairy", "Paton", "Blaire", "Karen", "Donald", "Jack", "Richard", "Alison", "Brittany", "Blake", "Aaron", "Bobby", "Bob", "Peggy", "Sue", "Mark"]
+let firstNames = ["Samantha", "Chad", "Timothy", "Gustavo", "Chadwick", "Penisfairy", "Paton", "Blaire", "Karen", "Donald", "Jack", "Richard", "Alison", "Brittany", "Blake", "Aaron", "Bobby", "Bob", "Peggy", "Sue", "Mark", "Josie", "Jennifer"]
 let lastNames = ["Markson", "Jackson", "Paulson", "Trump", "Drump", "Curumpt", "Mathers", "Corpol", "Aries", "Hues", "Hurwick", "Turbuculosis", "Annals", "Smith", "Vanderbelt", "Witherspoon", "Slake", "Slitherin"]
 let cities = ["Poke", "Makers", "Clinton", "Twinsies", "Polk", "Jameson"]
 let streets = ["Skip St", "Norma Ave", "Turtle Ave", "Mala Rd", "Courtson Ct"]
@@ -25,7 +25,19 @@ let msgs = [
 "Hey Joe Rogan said I'd get paid if I voted for Trump. How do I claim my money?",
 "Happy Holidays Trump Team!",
 "They're not Proud Boys, they're White Supremacists",
-"Hello, we're trying to contact the vehicle owner about their extended warranty. Your warranty is about to expire. Please call us to ensure that you do not lose coverage."
+"Hello, we're trying to contact the vehicle owner about their extended warranty. Your warranty is about to expire. Please call us to ensure that you do not lose coverage.",
+"I can't wait until Joe Biden is President. It would be pretty cool if he could even remove Trump's four years from the record books and just label it as missing information.",
+"You thought that shutting down the phone bank would stop the spam. You were wrong.",
+"The biggest thing for me is the fact that Trump doesn't like dogs. You can't trust someone who doesn't like dogs.",
+"Trump has lost by a landslide. A LANDSLIDE",
+"I don't know much about them voting machines, but are they supposed to have red tape around them? It looked like the tape had Trump written on it. I thought he was going to cut through red tape?",
+"Real talk. Does Donald Trump wear husky pants?",
+"Trump ignored COVID, and then got COVID. Does no one see the hilarious irony in that?",
+"There was this blind man right, there was this blind man, he was walking down the street with a stick right. He walked past the White House he stopped he took a deep breath he said... Good morning soon to be prisoner 45.",
+"Yeet",
+"There was a picture of me sleeping in my phone. I live alone.",
+"The only person trying to steal the election is Donald J. Trump.",
+"I paid a hundred people to vote for Trump twice. That's okay, right?"
 ]
 let i1 = document.getElementById("fsLatitude")
 i1.value = "1.0"
