@@ -1,0 +1,55 @@
+README:
+Open your browser in incognito mode. Then open your developer tools console. Copy and paste the below code into the console and hit enter.
+You will need to refresh and repeat, but this is faster than manually inputting information.
+You will also likely need to solve a CAPTCHA
+====================================================================
+
+
+let firstNames = ["Samantha", "Chad", "Timothy", "Gustavo", "Chadwick", "Penisfairy", "Paton", "Blaire", "Karen", "Donald", "Jack", "Richard", "Alison", "Brittany", "Blake", "Aaron", "Bobby", "Bob", "Peggy", "Sue", "Mark"]
+let lastNames = ["Markson", "Jackson", "Paulson", "Trump", "Drump", "Curumpt", "Mathers", "Corpol", "Aries", "Hues", "Hurwick", "Turbuculosis", "Annals", "Smith", "Vanderbelt", "Witherspoon", "Slake", "Slitherin"]
+let cities = ["Poke", "Makers", "Clinton", "Twinsies", "Polk", "Jameson"]
+let streets = ["Skip St", "Norma Ave", "Turtle Ave", "Mala Rd", "Courtson Ct"]
+let states = ["AL","AK","AZ","AR","CA","CO","CT","DE","DC","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"]
+let statesLong = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","NewYork","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania", "Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming",]
+let msgs = [
+"Somebody ate pizza while voting & smeared pizza oil all over their ballot and machine, so sticky!",
+"OMG the humanity - they voted. you know who THEY are.",
+"I saw with my own eye (one isn't so good these days) somebody gon done brought a hamburger into the voting booth with em",
+"my ballot was covered in boogers"
+]
+let i1 = document.getElementById("fsLatitude")
+i1.value = "1.0"
+let i2 = document.getElementById("fsLongitude")
+i2.value = "1.0"
+let i3 = document.getElementById("field101319448")
+i3.value = "123"
+let i4 = document.getElementById("field101315259-first")
+i4.value = firstNames[Math.floor(Math.random() * firstNames.length)]
+let i5 = document.getElementById("field101315259-middle")
+i5.value = firstNames[Math.floor(Math.random() * firstNames.length)]
+let i6 = document.getElementById("field101315259-last")
+i6.value = lastNames[Math.floor(Math.random() * lastNames.length)]
+let i7 = document.getElementById("field101315260")
+i7.value = "414672" + Math.floor(1000 + Math.random() * 9000)
+let i8 = document.getElementById("field101316245-address")
+i8.value = Math.floor(Math.random() * 45000) + " " + streets[Math.floor(Math.random() * streets.length)]
+let i9 = document.getElementById("field101316245-city")
+i9.value = cities[Math.floor(Math.random() * cities.length)]
+let i10 = document.getElementById("field101316245-state")
+i10.value = states[Math.floor(Math.random() * states.length)]
+let i11 = document.getElementById("field101316245-zip")
+i11.value = "20408"
+let i12 = document.getElementById("field101315261")
+i12.value = i4.value + "@hotmail.com"
+let i13 = document.getElementById("field101315261_confirm")
+i13.value = i4.value + "@hotmail.com"
+let i14 = document.getElementById("field101315264")
+i14.value = statesLong[Math.floor(Math.random() * states.length)]
+let i15 = document.getElementById("field101315265")
+i15.value = cities[Math.floor(Math.random() * cities.length)]
+let i16 = document.getElementById("field101315266")
+i16.value = i14.value + " Community Center"
+let i17 = document.getElementById("field101315267")
+i17.value = msgs[Math.floor(Math.random() * msgs.length)]
+let btn = document.getElementById("fsSubmitButton4124516")
+btn.click()
